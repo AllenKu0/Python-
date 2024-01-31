@@ -39,7 +39,7 @@ def get_source_with_soup(driver):
     return soup
 
 def get_ec2_instance_detail():
-    driver = webdriver.Chrome("D:\python 爬蟲\chromedriver-win64\chromedriver-win64\chromedriver.exe")
+    driver = webdriver.Chrome("D:\chromedriver-win64\chromedriver-win64\chromedriver.exe")
     driver.get("https://calculator.aws/#/createCalculator/ec2-enhancement")
     while True:
         try:
